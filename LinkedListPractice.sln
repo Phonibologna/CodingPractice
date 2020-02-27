@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListPractice", "LinkedListPractice\LinkedListPractice.csproj", "{475C637B-B86B-4325-B87D-D52197DAC5F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LList", "LList", "{718B52B8-9FF4-4BBF-9D0A-24A02C54636F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{C6ED0D77-623B-453B-8DB0-4D73EB9B8479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting Things", "Sorting Things\Sorting Things.csproj", "{CFDEABB0-C0B3-42A9-85D8-A944D2F72AC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{475C637B-B86B-4325-B87D-D52197DAC5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{475C637B-B86B-4325-B87D-D52197DAC5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{475C637B-B86B-4325-B87D-D52197DAC5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDEABB0-C0B3-42A9-85D8-A944D2F72AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDEABB0-C0B3-42A9-85D8-A944D2F72AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDEABB0-C0B3-42A9-85D8-A944D2F72AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDEABB0-C0B3-42A9-85D8-A944D2F72AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{475C637B-B86B-4325-B87D-D52197DAC5F7} = {718B52B8-9FF4-4BBF-9D0A-24A02C54636F}
+		{CFDEABB0-C0B3-42A9-85D8-A944D2F72AC4} = {C6ED0D77-623B-453B-8DB0-4D73EB9B8479}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A71F939-B6A0-469D-B3A9-DAD151356495}
