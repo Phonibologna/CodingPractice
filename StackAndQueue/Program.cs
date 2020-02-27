@@ -6,11 +6,11 @@ namespace StackAndQueue
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 
-
+    
 
     public class Stack
     {
