@@ -3,27 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListPractice", "LinkedListPractice\LinkedListPractice.csproj", "{475C637B-B86B-4325-B87D-D52197DAC5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListPractice", "LinkedListPractice\LinkedListPractice.csproj", "{475C637B-B86B-4325-B87D-D52197DAC5F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LList", "LList", "{718B52B8-9FF4-4BBF-9D0A-24A02C54636F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{C6ED0D77-623B-453B-8DB0-4D73EB9B8479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting Things", "Sorting Things\Sorting Things.csproj", "{CFDEABB0-C0B3-42A9-85D8-A944D2F72AC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting Things", "Sorting Things\Sorting Things.csproj", "{CFDEABB0-C0B3-42A9-85D8-A944D2F72AC4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stacks and Queues", "Stacks and Queues", "{BB36417E-73AF-42AB-A052-6C17CB8DC2CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAndQueue", "StackAndQueue\StackAndQueue.csproj", "{7EBECA48-AEC8-4AB0-9802-9CB4B9108A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackAndQueue", "StackAndQueue\StackAndQueue.csproj", "{7EBECA48-AEC8-4AB0-9802-9CB4B9108A4C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HackerRank", "HackerRank", "{C02C2A15-8089-4D0D-BDAC-A528F8543C2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SockMerchant", "SockMerchant", "{FF29A174-16F3-4B4F-A283-C9A3443FB977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockMerchantCode", "SockMerchantCode\SockMerchantCode.csproj", "{3705618F-E330-468A-9389-CB60336DCCE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SockMerchantCode", "SockMerchantCode\SockMerchantCode.csproj", "{3705618F-E330-468A-9389-CB60336DCCE3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Year Chaos", "New Year Chaos", "{12A67A55-0BAD-4418-9BC2-24D5EA43BE99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYearChaosCode", "NewYearChaosCode\NewYearChaosCode.csproj", "{58B6BD56-251B-404B-848B-AF38846A8A55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewYearChaosCode", "NewYearChaosCode\NewYearChaosCode.csproj", "{58B6BD56-251B-404B-848B-AF38846A8A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AcceptableString", "AcceptableString", "{3F4EE4D1-95A4-4EC5-BF9B-212B0D5C5EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sherlock", "Sherlock\Sherlock.csproj", "{7490267F-046D-4A4B-A9C0-21B89D3DC911}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{58B6BD56-251B-404B-848B-AF38846A8A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58B6BD56-251B-404B-848B-AF38846A8A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B6BD56-251B-404B-848B-AF38846A8A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7490267F-046D-4A4B-A9C0-21B89D3DC911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7490267F-046D-4A4B-A9C0-21B89D3DC911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7490267F-046D-4A4B-A9C0-21B89D3DC911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7490267F-046D-4A4B-A9C0-21B89D3DC911}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +71,8 @@ Global
 		{3705618F-E330-468A-9389-CB60336DCCE3} = {FF29A174-16F3-4B4F-A283-C9A3443FB977}
 		{12A67A55-0BAD-4418-9BC2-24D5EA43BE99} = {C02C2A15-8089-4D0D-BDAC-A528F8543C2D}
 		{58B6BD56-251B-404B-848B-AF38846A8A55} = {12A67A55-0BAD-4418-9BC2-24D5EA43BE99}
+		{3F4EE4D1-95A4-4EC5-BF9B-212B0D5C5EAD} = {C02C2A15-8089-4D0D-BDAC-A528F8543C2D}
+		{7490267F-046D-4A4B-A9C0-21B89D3DC911} = {3F4EE4D1-95A4-4EC5-BF9B-212B0D5C5EAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A71F939-B6A0-469D-B3A9-DAD151356495}

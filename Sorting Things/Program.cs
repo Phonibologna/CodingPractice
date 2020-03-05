@@ -8,7 +8,7 @@ namespace Sorting_Things
     {
         static void Main(string[] args)
         {
-            
+
             int[] unsorted = { 35, 625, 1, 2, 57, 9, 40, 57 };
             List<int> unsortedList = new List<int>();
             unsortedList.Add(35);
